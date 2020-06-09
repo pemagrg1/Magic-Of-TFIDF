@@ -27,4 +27,4 @@ it was the age of foolishness]
 "it was the age of wisdom" = [1, 1, 1, 0, 1, 0, 0, 1, 1, 0]
 "it was the age of foolishness" = [1, 1, 1, 0, 1, 0, 0, 1, 0, 1]
 ```
-4. Score the words using either count method or frequency method such as TFIDF. Which we'll be going through in this article.
+4. <b>Score</b> the words using either count method or frequency method such as TFIDF. Which we'll be going through in this article.
