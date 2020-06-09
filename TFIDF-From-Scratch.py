@@ -47,6 +47,13 @@ def computeTFIDF(tfBow, idfs):
         tfidf[word] = val*idfs[word]
     return(tfidf)
 
+
+def create_word_dict(total, sentence):
+    wordDict = dict.fromkeys(total, 0)
+    for word in sentence:
+        wordDict[word] += 1
+    return wordDict
+
 sentence1 = "Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat..."
 sentence2 = "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's"
 
@@ -54,12 +61,6 @@ sentence2 = "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005.
 sentence1_list = nltk.word_tokenize(sentence1)
 sentence2_list = nltk.word_tokenize(sentence2)
 total= set(sentence1_list).union(set(sentence2_list))
-
-def create_word_dict(total,sentence):
-    wordDict = dict.fromkeys(total, 0)
-    for word in sentence:
-        wordDict[word] += 1
-    return wordDict
 
 wordDictA = create_word_dict(total,sentence1_list)
 wordDictB = create_word_dict(total,sentence2_list)
