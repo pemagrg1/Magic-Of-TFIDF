@@ -48,7 +48,7 @@ Term frequency(TF) is the count of a word in a document. There are several ways 
 
 ### Inverse Document Frequency
 The inverse document frequency(idf) tells us how common or rare a word is in the entire document set. The metric can be calculated by taking the total number of documents, dividing it by the number of documents that contain a word, and calculating the logarithm. If a term spreads frequently along with other documents it can be said that it is not a relevant word such as the stop words like "the", "is", "are" etc.
-<br>
+<br><br>
 <b>NOTE:</b> The intuition for this measure is: If a word appears frequently in a document, then it should be important and we should give that word a high score. But if a word appears in too many other documents, it's probably not a unique identifier, therefore we should assign a lower score to that word
 <br><br>
 #### REFERENCES:
