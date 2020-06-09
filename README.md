@@ -32,7 +32,6 @@ it was the age of foolishness]
 <b>Now let's get started!!! </b><br>
 
 # Term Frequency Inverse Document Frequency (TFIDF)
-<hr> </hr>
 <b>Term Frequency Inverse Document Frequency (TFIDF)</b> is a statistical measure that reflects how important a word is to a document. TF-IDF is mostly used for document search and information retrieval through scoring that gives the importance of the word in a document. The higher the TFIDF score, the rarer the term, and vise versa. <br>
 TF-IDF for a word in a document is calculated by multiplying two different metrics: <u>term frequency</u>, and <u>inverse document frequency</u>.<br>
 ```TFIDF = TF * IDF```<br>
