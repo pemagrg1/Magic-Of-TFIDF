@@ -1,12 +1,9 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-first_sentence = "Data Science is the sexiest job of the 21st century"
-second_sentence = "machine learning is the key for data science"
+sentence1 = "Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat..."
+sentence2 = "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's"
 
-data = [first_sentence,second_sentence]
+data = [sentence1, sentence2]
 tfidf_vectorizer = TfidfVectorizer(stop_words='english')
 X = tfidf_vectorizer.fit_transform(data)
 print(X)
-
-
-
