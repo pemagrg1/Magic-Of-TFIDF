@@ -28,3 +28,13 @@ it was the age of foolishness]
 "it was the age of foolishness" = [1, 1, 1, 0, 1, 0, 0, 1, 0, 1]
 ```
 4. <b>Score</b> the words using either count method or frequency method such as TFIDF. Which we'll be going through in this article.
+
+<b>Now let's get started!!! </b><br>
+
+## Term Frequency Inverse Document Frequency (TFIDF)
+<b>Term Frequency Inverse Document Frequency (TFIDF)</b> is a statistical measure that reflects how important a word is to a document. TF-IDF is mostly used for document search and information retrieval through scoring that gives the importance of the word in a document. The higher the TFIDF score, the rarer the term, and vise versa. <br>
+TF-IDF for a word in a document is calculated by multiplying two different metrics: <u>term frequency</u>, and <u>inverse document frequency</u>.<br>
+```TFIDF = TF * IDF```<br>
+<i>where,</i><br>
+<b>TF(term)</b> = Number of times the term appears in document / total number of terms in the document<br>
+<b>IDF(term)</b> = log(total number of documents / Number of documents with term in it)
