@@ -4,7 +4,7 @@ Term Frequency Inverse Document Frequency (TFIDF) can do wonders!
 TFIDF was introduced to improve the result of Bag of words (BoW). By the way, did you know that Term Frequency - Inverse Document Frequency was introduced in a 1972 paper by Karen Spärck Jones under the name "term specificity"? 😲 <br>
 coming back to the present scenario, before starting with TFIDF, let me explain BoW in brief.<br>
 ## Bag of Words (BoW)
-A bag-of-words is a representation of text that describes the occurrence of words within a document. It's called a bag of words because it contains all the words of a document where the order and structure of the word in the document are unknown. Confusing? in simple words, it's like we have an empty bag, and we have a vocabulary of the document. And we put the words into the bad one by one. What do we get? a bag full of words. 😲<br>
+A bag-of-words is a representation of text that describes the occurrence of words within a document. It's called a bag of words because it contains all the words of a document where the order and structure of the word in the document are unknown. Confusing? in simple words, it's like we have an empty bag, and we have a vocabulary of the document. And we put the words into the bag one by one. What do we get? a bag full of words. 😲<br>
 ![BOW image](https://cdn-images-1.medium.com/max/800/0*KwLaTHYlVY6tLASn.png)<br>
 Source: https://dudeperf3ct.github.io/lstm/gru/nlp/2019/01/28/Force-of-LSTM-and-GRU/<br>
 To make the bag of words model, [Note: taking examples from Gentle introduction to the Bag of words] <br>
